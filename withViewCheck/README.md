@@ -27,7 +27,7 @@ export default withViewCheck()(MyComponent);
 **isViewXs**, extra-small: `0px` to `599.99px`<br/>
 **isViewSm**, small: `600px` to `959.99px`<br/>
 **isViewMd**, medium: `960px` to `1279.99px`<br/>
-**isViewLg**, large: `1280px to 1919.99px`<br/>
+**isViewLg**, large: `1280px` to `1919.99px`<br/>
 **isViewXl**, extra-large: `1920px` or larger<br/>
 
 **isViewSmDown**, `600px` or smaller<br/>
