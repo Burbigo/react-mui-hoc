@@ -24,12 +24,12 @@ export default withViewCheck()(MyComponent);
 
 ## Available props
 
-**isViewXs**, extra-small: `0px` to `599.99px`
-**isViewSm**, small: `600px` to `959.99px`
-**isViewMd**, medium: `960px` to `1279.99px`
-**isViewLg**, large: `1280px to 1919.99px`
-**isViewXl**, extra-large: `1920px` or larger
+**isViewXs**, extra-small: `0px` to `599.99px`<br/>
+**isViewSm**, small: `600px` to `959.99px`<br/>
+**isViewMd**, medium: `960px` to `1279.99px`<br/>
+**isViewLg**, large: `1280px to 1919.99px`<br/>
+**isViewXl**, extra-large: `1920px` or larger<br/>
 
-**isViewSmDown**, `600px` or smaller
-**isViewLgUp**, `1280px` or larger
-**isViewMdUp**, `960px` or larger
+**isViewSmDown**, `600px` or smaller<br/>
+**isViewLgUp**, `1280px` or larger<br/>
+**isViewMdUp**, `960px` or larger<br/>
