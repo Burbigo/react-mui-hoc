@@ -1,4 +1,4 @@
-# WithViewCheck HOC
+# MaxContainer HOC
 
 A HOC implemented with MUI for determining page max width
 
