@@ -10,7 +10,7 @@ For proper work of this HOC in your app follow the next steps:
 ## Example
 Add ScrollToTop component as higher as possible in your application structure.
 ```js
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import ScrollToTop from 'hoc/ScrollToTop';
 import RootComponent from 'containers/RootComponent'
 
@@ -27,3 +27,9 @@ class MyComponent extends Component {
 
 export default MyComponent;
 ```
+
+## Available props
+
+**behavior** (optional), Defines the transition animation. One of `auto` or `smooth`. Defaults to `auto`.<br/>
+**block** (optional), Defines vertical alignment. One of `start`, `center`, `end`, or `nearest`. Defaults to `center`.<br/>
+**inline** (optional), Defines horizontal alignment. One of `start`, `center`, `end`, or `nearest`. Defaults to `nearest`.<br/>
