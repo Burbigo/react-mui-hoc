@@ -5,7 +5,7 @@ import withStyles from '@material-ui/core/styles/withStyles';
 
 import classNames from 'classnames';
 
-const styles = (theme) => ({
+const styles = () => ({
   root: {
     maxWidth: 1340
   },

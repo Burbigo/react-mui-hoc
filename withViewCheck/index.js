@@ -1,5 +1,5 @@
 import React  from 'react';
-import withWidth, {isWidthDown, isWidthUp} from '@material-ui/core/withWidth';
+import withWidth, { isWidthDown, isWidthUp } from '@material-ui/core/withWidth';
 
 const withViewCheck = () => (Component) => {
   const WithViewCheck = (props) => (
