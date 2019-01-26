@@ -18,8 +18,11 @@ class MyComponent extends Component {
   render() {
 
     return (
-      <ScrollToTop>
-          <RootComponent />
+      <ScrollToTop
+        behavior={'smooth'}
+        block={'start'}
+      >
+        <RootComponent />
       </ScrollToTop>
     )
   }
@@ -30,6 +33,6 @@ export default MyComponent;
 
 ## Available props
 
-**behavior** (optional), Defines the transition animation. One of `auto` or `smooth`. Defaults to `auto`.<br/>
-**block** (optional), Defines vertical alignment. One of `start`, `center`, `end`, or `nearest`. Defaults to `center`.<br/>
-**inline** (optional), Defines horizontal alignment. One of `start`, `center`, `end`, or `nearest`. Defaults to `nearest`.<br/>
+**behavior** `(optional)`, Defines the transition animation. One of `auto` or `smooth`. Defaults to `auto`.<br/>
+**block** `(optional)`, Defines vertical alignment. One of `start`, `center`, `end`, or `nearest`. Defaults to `center`.<br/>
+**inline** `(optional)`, Defines horizontal alignment. One of `start`, `center`, `end`, or `nearest`. Defaults to `nearest`.<br/>
